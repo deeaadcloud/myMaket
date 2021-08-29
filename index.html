@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Course-3</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -38,12 +40,17 @@
                     </div>
                     <div class="header__right">
                         <nav class="menu">
+                            <div class="menu_burger">
+                                <span>
+
+                                </span>
+                            </div>
                             <ul class="menu__text">
                                 <li><a href=#>Главная</a></li>
-                                <li><a href=#>Список услуг</a></li>
-                                <li><a href=#>Примеры</a></li>
-                                <li><a href=#>Контакты</a></li>
-                                <li><a href=#>О себе</a></li>
+                                <li><a href=#service>Список услуг</a></li>
+                                <li><a href=#example>Примеры</a></li>
+                                <li><a href=#work>Контакты</a></li>
+                                <li><a href=#about>О себе</a></li>
                             </ul>
                         </nav>
                         <!-- <button class="header__btn">
@@ -53,7 +60,7 @@
                 </div>
 
             </header>
-            <div class="about">
+            <div class="about" id="about">
                 <h2>О себе</h2>
                 <div class="about__inner">
 
@@ -122,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="service">
+            <div class="service" id="service">
                 <h2>Список услуг
                 </h2>
                 <div class="service__inner">
@@ -162,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="example">
+            <div class="example" id="example">
                 <h2>Примеры работ</h2>
                 <div class="example__inner">
                     <div class="example1">
@@ -209,10 +216,10 @@
                         <input action="#" placeholder="E-mail"></input>
                     </div>
                     <button class="header__btn">
-                        <div class="header__btn-inner">Отправить</div>
+                        <div class="header__btn-inner" action="mailto:Pavel999@gmail.com">Отправить</div>
                     </button>
                 </div>
-                <div class="work">
+                <div class="work" id="work">
                     <h2>Контакты
                     </h2>
                     <div class="contact_inner">
@@ -273,6 +280,11 @@
         </footer>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    
+    
 </body>
+
 
 </html>
